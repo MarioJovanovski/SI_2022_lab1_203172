@@ -1,5 +1,5 @@
-maslo
-shampon
-jajca
-mleko
-gricki
+maslo x 1
+shampon x 1
+jajca x 10
+mleko x 2
+gricki x 4
