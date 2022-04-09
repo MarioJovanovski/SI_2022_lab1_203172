@@ -1,0 +1,40 @@
+1. git config --global user.email "mario.jovanovski177@gmail.com"
+2. git config --global user.name "Mario Jovanovski"
+3.  git clone https://github.com/MarioJovanovski/SI_2022_lab1_203172.git
+4. cd SI_2022_lab1_203172/
+5. git add shopping_list.txt
+6. git commit -m "Add 5 items to the shopping list"git 
+7. git add shopping_list.txt
+8. git commit -m "Add quantities to the items"
+9. git branch branch1
+10. git branch branch2
+11.git push --all origin
+12. git checkout branch1
+13. git add shopping_list.txt
+14. git commit -m "Change quantity of item #5"
+15. git checkout master
+16. git add .
+17. git commit -m "Change quantity of item #2"
+18. git push --all origin
+19. git checkout branch2
+20. git add .
+21. git commit -m "Modify item #4"
+22. git add .
+23. git commit --amend -m "Modify item #4 and add item #6"
+24. git checkout master
+25. git merge branch1
+Merge na master so branch1 nema da predizvika konflikt. Ke se odviva po ort-strategy (recursive)
+Auto-merging shopping_list.txt
+Merge made by the 'ort' strategy.
+ shopping_list.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+26. git merge branch2
+Ke predizvika konflikt. Racno gi izbrishav delovite vo fajlot.
+
+27. git add .
+28. git commit -m "Merge branch 'branch2'"
+29. git add .
+30. git commit -m "Add docs"
+31. git push --all origin
