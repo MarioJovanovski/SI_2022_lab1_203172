@@ -1,5 +1,6 @@
 maslo x 1
 shampon x 2
 jajca x 10
-mleko x 2
-gricki x 2
+jogurt x 2
+gricki x 4
+pavlaka
